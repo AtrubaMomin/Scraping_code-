@@ -1,9 +1,9 @@
 from bs4 import BeautifulSoup
 import requests
 
-#import own_resume_parser
+#import resume_parser
 #For resume skill extraction
-#job_title = own_resume_parser.domain
+#job_title = resume_parser.domain
 
 job_title = input("Enter your preffered choice for job : ")
 job_title.replace(" ","%20")
